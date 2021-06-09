@@ -108,9 +108,7 @@ header{
 #header_logo{
 	margin-left: 6%;
 }
-.menu_body {
-	margin-right: 0px;
-}
+
 
 .orange_button{
 	color: #ff6624;
@@ -144,12 +142,14 @@ header{
  align-items: center;
  text-align: center;
  justify-content: center;
+
 }
 
 
 	.menu_list {
 	display: none;
 	width: 100%;
+	height: auto;
  position: absolute;
  min-width: 160px;
  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -157,6 +157,15 @@ header{
  text-align: center;
  top: 60px;
  background-color: #F9F7FF;
+ /* The main point: */
+    overflow-y: auto;
+    /* Optional but highly reccomended: enables momentum scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
+}
+
+html {
+    /* For desktop */
+    overflow: hidden;
 }
 .menu_list a {
  color: #2d3f8f;
