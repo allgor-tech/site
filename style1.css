@@ -293,7 +293,7 @@ header{
 }
 .share_button a{
 	margin-right: 5%;
-	width: 3vh;
+	width: 4%;
 }
 
 .share_button a img{
@@ -324,7 +324,7 @@ header{
 }
 
 .button1 a, .button2 a{
-	height: 7vh;
+	height: 140%;
 	font-size: 17px;
 }
 
